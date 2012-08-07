@@ -15,7 +15,7 @@ module SimpleForm
 
     map_type :text,                                :to => SimpleForm::Inputs::TextInput
     map_type :file,                                :to => SimpleForm::Inputs::FileInput
-    map_type :string, :email, :search, :tel, :url, :to => SimpleForm::Inputs::StringInput
+    map_type :string, :email, :search, :tel, :url, :date, :time, :datetime :to => SimpleForm::Inputs::StringInput
     map_type :password,                            :to => SimpleForm::Inputs::PasswordInput
     map_type :integer, :decimal, :float,           :to => SimpleForm::Inputs::NumericInput
     map_type :range,                               :to => SimpleForm::Inputs::RangeInput
@@ -23,7 +23,7 @@ module SimpleForm
     map_type :radio_buttons,                       :to => SimpleForm::Inputs::CollectionRadioButtonsInput
     map_type :select,                              :to => SimpleForm::Inputs::CollectionSelectInput
     map_type :grouped_select,                      :to => SimpleForm::Inputs::GroupedCollectionSelectInput
-    map_type :date, :time, :datetime,              :to => SimpleForm::Inputs::DateTimeInput
+    # map_type :date, :time, :datetime,              :to => SimpleForm::Inputs::DateTimeInput
     map_type :country, :time_zone,                 :to => SimpleForm::Inputs::PriorityInput
     map_type :boolean,                             :to => SimpleForm::Inputs::BooleanInput
 

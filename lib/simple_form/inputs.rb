@@ -7,7 +7,7 @@ module SimpleForm
     autoload :CollectionInput,              'simple_form/inputs/collection_input'
     autoload :CollectionRadioButtonsInput,  'simple_form/inputs/collection_radio_buttons_input'
     autoload :CollectionSelectInput,        'simple_form/inputs/collection_select_input'
-    autoload :DateTimeInput,                'simple_form/inputs/date_time_input'
+    # autoload :DateTimeInput,                'simple_form/inputs/date_time_input'
     autoload :FileInput,                    'simple_form/inputs/file_input'
     autoload :GroupedCollectionSelectInput, 'simple_form/inputs/grouped_collection_select_input'
     autoload :HiddenInput,                  'simple_form/inputs/hidden_input'
